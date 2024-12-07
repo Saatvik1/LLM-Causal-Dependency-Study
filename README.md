@@ -26,5 +26,7 @@ https://drive.google.com/file/d/1UjFwv-BKU0Q7CRAFFEFsMX2AUtoT5Wud/view?usp=shari
 * google-generativeai
 * jsonlines
 * python-dotenv
+* torchmetrics==0.11.4
+* pandas==2.0.3
 * sklearn
 * scipy
