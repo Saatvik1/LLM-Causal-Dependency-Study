@@ -1,0 +1,31 @@
+Idea 2 prompt: 
+prompt = """
+Consider the following example as a precursor to a question:
+
+1. Gather ingredients: flour, eggs
+2. [Missing Step]
+3. Mix the whisked eggs with the flour.
+
+In this example, for "whisked eggs" to be added to the "flour," the eggs must first be cracked and whisked.
+Therefore, these steps are dependent because the state of the "eggs" must change before they can be mixed with the
+"flour."
+
+For the following plan and question, return ONLY 0 if the pair in question is non-dependent and 1 if pair is dependent.
+Again, your response should only be either a 0 or 1.
+
+"""
+
+Idea 3 prompt:
+prompt = """
+Consider the following example as a precursor to a question:
+
+1. Gather ingredients: flour, eggs
+2. [Missing Step]
+3. Pre-heat oven to 350 degrees F.
+
+In this example, pre-heating the oven to 350 degrees F has no dependency on us gathering the ingredients flour and eggs.
+
+For the following plan and question, return ONLY 0 if the pair in question is non-dependent and 1 if pair is dependent.
+Again, your response should only be either a 0 or 1.
+
+"""
