@@ -1,6 +1,12 @@
 # LLM-Causal-Dependency-Study
 A study on plan completion, specifically studying if LLMs such as Gemini's Flash model and DistilBERT understand the underlying aspects of plans such as temporal and state dependencies of entities in plans.
 
+# File Explanations
+* 1_0_FinalProjNLP_DS -> Gemini Workflow and Testing
+* 1_0_FinalProjNLP_DS_2 -> DistilBERT Workflow and Testing
+* Modified_Test/Train -> Modified CaT-Bench plans
+* Gemini_Prediction_Results -> Raw data of Gemini's test results
+
 # Modifications 
 * cat-bench within python dataframes, using pandas, did not save to the files. Saved the changes to csv's in between like rds_train rds_test
 
