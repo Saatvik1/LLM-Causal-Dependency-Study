@@ -6,6 +6,7 @@ A study on plan completion, specifically studying if LLMs such as Gemini's Flash
 * 1_0_FinalProjNLP_DS_2 -> DistilBERT Workflow and Testing
 * Modified_Test/Train -> Modified CaT-Bench plans
 * Gemini_Prediction_Results -> Raw data of Gemini's test results
+* prompt.txt -> Text file of prompts used in testing (Idea 2 and Idea 3)
 
 # Modifications 
 * cat-bench within python dataframes, using pandas, did not save to the files. Saved the changes to csv's in between like rds_train rds_test
